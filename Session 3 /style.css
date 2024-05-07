@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+article {
+  width: 80%;
+  margin: 5%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  /* border-spacing: 0; */
+  border-collapse: collapse;
+  border: 2px solid #800080;
+  text-align: center;
+}
+
+tbody {
+  background-image: url(noise.png);
+  opacity: 1;
+}
+
+thead, tfoot {
+  background-image: url(leopardskin.jpg), linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+ 
+   /* background-color: #800080; */
+}
+
+/*
+.background-image {
+  
+  z-index: -1;
+  object-fit: cover;
+}
+*/
+
+thead th, tfoot td {
+  font-family: "Rock Salt", "Helvetica Neu", sans-serif;
+  border: 2px solid #800080;
+  color: #fff;
+  font-size: 0.3rem;
+  font-weight: 900;
+  text-shadow: 2px 2px black;
+  padding: 1%;
+}
+
+tbody td {
+  font-family: "Helvetica Neu", Helvetica, sans-serif;
+  font-size: 0.5rem;
+  padding: 1%;
+}
+
+
+/*
+.background-noise {
+  position: absolute;
+  z-index: 0;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+*/
+
+
+tbody tr:nth-child(2n+1) {
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #e495e4;
+}
+
+.total-albums {
+  text-align: right;
+}
+
+.total-result {
+  text-align: left;
+}
+
+/* Notes
+
+    - I've given a background color to replace the leopard image if it doesn't load
+    - I'm still trying to modify the font styling 
+    - I'm trying to overlap the gradient property and the background image
+    - I have a few tasks in the challenge to finish

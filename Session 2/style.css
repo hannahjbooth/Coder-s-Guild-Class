@@ -1,0 +1,19 @@
+body {background-color: lightblue;
+
+}
+
+p  {color: lightcoral;
+    text-align: right;
+ }
+
+div#content-area {background-color: yellow;
+ }
+
+h6 {color: green;
+ }
+
+.biggest {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 10px 20px;
+}
